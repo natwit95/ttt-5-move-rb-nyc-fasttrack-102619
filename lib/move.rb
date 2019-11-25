@@ -5,5 +5,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
+name = gets.chomp
 
+display_board (board)
 # code your input_to_index and move method here!
